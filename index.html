@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asif Homes Arcade - Find Your Dream Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <i class="fas fa-home"></i> Asif Homes <span>Arcade</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="properties.html">Properties</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary nav-cta">Get In Touch</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-tag">Welcome to Asif Homes Arcade</p>
+      <h1>Find Your <span>Dream Home</span><br />With Confidence</h1>
+      <p class="hero-sub">Discover premium properties tailored to your lifestyle. Trusted by thousands of happy families.</p>
+      <div class="search-box">
+        <div class="search-field">
+          <label>Property Type</label>
+          <select>
+            <option>All Types</option>
+            <option>Apartment</option>
+            <option>Villa</option>
+            <option>Plot</option>
+            <option>Commercial</option>
+          </select>
+        </div>
+        <div class="search-field">
+          <label>Location</label>
+          <select>
+            <option>All Locations</option>
+            <option>Mumbai</option>
+            <option>Delhi</option>
+            <option>Bangalore</option>
+            <option>Hyderabad</option>
+            <option>Pune</option>
+          </select>
+        </div>
+        <div class="search-field">
+          <label>Budget</label>
+          <select>
+            <option>Any Budget</option>
+            <option>Under ₹50L</option>
+            <option>₹50L - ₹1Cr</option>
+            <option>₹1Cr - ₹2Cr</option>
+            <option>Above ₹2Cr</option>
+          </select>
+        </div>
+        <button class="btn btn-accent search-btn"><i class="fas fa-search"></i> Search</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <h3>1,200+</h3>
+        <p>Properties Listed</p>
+      </div>
+      <div class="stat-item">
+        <h3>850+</h3>
+        <p>Happy Clients</p>
+      </div>
+      <div class="stat-item">
+        <h3>15+</h3>
+        <p>Years Experience</p>
+      </div>
+      <div class="stat-item">
+        <h3>50+</h3>
+        <p>Expert Agents</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROPERTIES -->
+  <section class="section featured-properties">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Hot Picks</p>
+        <h2>Featured <span>Properties</span></h2>
+        <p class="section-sub">Handpicked premium properties for discerning buyers</p>
+      </div>
+      <div class="properties-grid">
+
+        <div class="property-card">
+          <div class="card-img-wrap">
+            <img src="https://placehold.co/400x260/1a3c5e/ffffff?text=Luxury+Villa" alt="Luxury Villa" />
+            <span class="badge badge-sale">For Sale</span>
+            <span class="badge badge-featured">Featured</span>
+          </div>
+          <div class="card-body">
+            <h3>Luxury Garden Villa</h3>
+            <p class="card-location"><i class="fas fa-map-marker-alt"></i> Banjara Hills, Hyderabad</p>
+            <div class="card-meta">
+              <span><i class="fas fa-bed"></i> 4 Beds</span>
+              <span><i class="fas fa-bath"></i> 3 Baths</span>
+              <span><i class="fas fa-ruler-combined"></i> 2800 sqft</span>
+            </div>
+            <div class="card-footer">
+              <p class="price">₹1.8 Cr</p>
+              <a href="properties.html" class="btn btn-outline">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="property-card">
+          <div class="card-img-wrap">
+            <img src="https://placehold.co/400x260/c8a951/ffffff?text=Modern+Apartment" alt="Modern Apartment" />
+            <span class="badge badge-rent">For Rent</span>
+          </div>
+          <div class="card-body">
+            <h3>Modern Sky Apartment</h3>
+            <p class="card-location"><i class="fas fa-map-marker-alt"></i> Koramangala, Bangalore</p>
+            <div class="card-meta">
+              <span><i class="fas fa-bed"></i> 3 Beds</span>
+              <span><i class="fas fa-bath"></i> 2 Baths</span>
+              <span><i class="fas fa-ruler-combined"></i> 1600 sqft</span>
+            </div>
+            <div class="card-footer">
+              <p class="price">₹45,000/mo</p>
+              <a href="properties.html" class="btn btn-outline">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="property-card">
+          <div class="card-img-wrap">
+            <img src="https://placehold.co/400x260/2d6a4f/ffffff?text=Premium+Plot" alt="Premium Plot" />
+            <span class="badge badge-sale">For Sale</span>
+          </div>
+          <div class="card-body">
+            <h3>Premium Corner Plot</h3>
+            <p class="card-location"><i class="fas fa-map-marker-alt"></i> Whitefield, Bangalore</p>
+            <div class="card-meta">
+              <span><i class="fas fa-ruler-combined"></i> 1200 sqft</span>
+              <span><i class="fas fa-road"></i> 40ft Road</span>
+            </div>
+            <div class="card-footer">
+              <p class="price">₹75 L</p>
+              <a href="properties.html" class="btn btn-outline">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="property-card">
+          <div class="card-img-wrap">
+            <img src="https://placehold.co/400x260/4a1942/ffffff?text=Penthouse" alt="Penthouse" />
+            <span class="badge badge-sale">For Sale</span>
+            <span class="badge badge-featured">New</span>
+          </div>
+          <div class="card-body">
+            <h3>Sky-High Penthouse</h3>
+            <p class="card-location"><i class="fas fa-map-marker-alt"></i> Juhu, Mumbai</p>
+            <div class="card-meta">
+              <span><i class="fas fa-bed"></i> 5 Beds</span>
+              <span><i class="fas fa-bath"></i> 4 Baths</span>
+              <span><i class="fas fa-ruler-combined"></i> 4200 sqft</span>
+            </div>
+            <div class="card-footer">
+              <p class="price">₹4.5 Cr</p>
+              <a href="properties.html" class="btn btn-outline">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="property-card">
+          <div class="card-img-wrap">
+            <img src="https://placehold.co/400x260/1a3c5e/e0c97f?text=Row+House" alt="Row House" />
+            <span class="badge badge-rent">For Rent</span>
+          </div>
+          <div class="card-body">
+            <h3>Elegant Row House</h3>
+            <p class="card-location"><i class="fas fa-map-marker-alt"></i> Aundh, Pune</p>
+            <div class="card-meta">
+              <span><i class="fas fa-bed"></i> 3 Beds</span>
+              <span><i class="fas fa-bath"></i> 2 Baths</span>
+              <span><i class="fas fa-ruler-combined"></i> 1800 sqft</span>
+            </div>
+            <div class="card-footer">
+              <p class="price">₹35,000/mo</p>
+              <a href="properties.html" class="btn btn-outline">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="property-card">
+          <div class="card-img-wrap">
+            <img src="https://placehold.co/400x260/c8a951/1a3c5e?text=Commercial+Space" alt="Commercial" />
+            <span class="badge badge-sale">For Sale</span>
+          </div>
+          <div class="card-body">
+            <h3>Prime Commercial Space</h3>
+            <p class="card-location"><i class="fas fa-map-marker-alt"></i> Connaught Place, Delhi</p>
+            <div class="card-meta">
+              <span><i class="fas fa-ruler-combined"></i> 3500 sqft</span>
+              <span><i class="fas fa-building"></i> Ground Floor</span>
+            </div>
+            <div class="card-footer">
+              <p class="price">₹2.2 Cr</p>
+              <a href="properties.html" class="btn btn-outline">View Details</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="text-center mt-40">
+        <a href="properties.html" class="btn btn-primary">View All Properties</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section why-us">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Our Advantage</p>
+        <h2>Why Choose <span>Asif Homes Arcade</span></h2>
+        <p class="section-sub">We bring expertise, trust, and dedication to every property transaction</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Trusted & Verified</h3>
+          <p>Every property is thoroughly verified for legal clarity and authenticity before listing.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-tags"></i></div>
+          <h3>Best Market Prices</h3>
+          <p>We negotiate the best deals ensuring you get maximum value for your investment.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-map-marked-alt"></i></div>
+          <h3>Wide Selection</h3>
+          <p>From affordable apartments to luxury villas — we have properties for every budget.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-headset"></i></div>
+          <h3>24/7 Support</h3>
+          <p>Our dedicated team is always available to assist you at every step of your journey.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-file-contract"></i></div>
+          <h3>Legal Assistance</h3>
+          <p>Complete documentation and legal support to make your transaction smooth and safe.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-hand-holding-usd"></i></div>
+          <h3>Home Loan Help</h3>
+          <p>We connect you with top banks and NBFCs for the best home loan rates available.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Client Stories</p>
+        <h2>What Our <span>Clients Say</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Asif Homes Arcade made our home buying journey absolutely seamless. Their team was professional, responsive, and found us the perfect home within our budget!"</p>
+          <div class="testimonial-author">
+            <img src="https://placehold.co/50x50/1a3c5e/ffffff?text=RK" alt="Rajesh K" />
+            <div>
+              <h4>Rajesh Kumar</h4>
+              <span>Purchased Villa in Hyderabad</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Excellent service! They helped us find a great commercial space in a prime location. The legal documentation process was handled very professionally."</p>
+          <div class="testimonial-author">
+            <img src="https://placehold.co/50x50/c8a951/ffffff?text=PS" alt="Priya S" />
+            <div>
+              <h4>Priya Sharma</h4>
+              <span>Commercial Space, Delhi</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+          <p>"I was skeptical at first, but the team at Asif Homes Arcade exceeded all my expectations. Got a beautiful apartment at a price I couldn't believe!"</p>
+          <div class="testimonial-author">
+            <img src="https://placehold.co/50x50/2d6a4f/ffffff?text=AM" alt="Arjun M" />
+            <div>
+              <h4>Arjun Mehta</h4>
+              <span>Apartment, Bangalore</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container cta-content">
+      <h2>Ready to Find Your Perfect Property?</h2>
+      <p>Talk to our expert agents today and take the first step toward your dream home.</p>
+      <div class="cta-buttons">
+        <a href="properties.html" class="btn btn-accent">Browse Properties</a>
+        <a href="contact.html" class="btn btn-outline-white">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo logo-light"><i class="fas fa-home"></i> Asif Homes <span>Arcade</span></a>
+        <p>Your trusted partner in finding the perfect property. We make real estate simple, transparent, and rewarding.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="properties.html">Properties</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Property Types</h4>
+        <ul>
+          <li><a href="properties.html">Apartments</a></li>
+          <li><a href="properties.html">Villas</a></li>
+          <li><a href="properties.html">Plots</a></li>
+          <li><a href="properties.html">Commercial</a></li>
+          <li><a href="properties.html">Row Houses</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Info</h4>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> 123 Arcade Tower, MG Road, Hyderabad - 500001</li>
+          <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+          <li><i class="fas fa-envelope"></i> info@asifhomesarcade.in</li>
+          <li><i class="fas fa-clock"></i> Mon - Sat: 9:00 AM - 7:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Asif Homes Arcade. All Rights Reserved. | Designed with <i class="fas fa-heart"></i></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
